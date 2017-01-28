@@ -1,0 +1,157 @@
+body {
+	background-image: url("bg.jpg");
+	background-size: 200%;
+	font-family: "Arial";
+}
+
+.nav {
+	width: 100%;
+	height: 60px;
+}
+
+#nav_wrapper {
+	height: 100%;
+	width: 100%;
+	background: black;
+	opacity: 0.5;
+	filter: alpha (opacity = 50);
+}
+
+#nav_wrapper ul li {
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 20px;
+	margin-top: 5px;
+}
+
+#nav_wrapper a {
+	color: white;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+#nav_wrapper ul li:hover{
+	background-color: #CD5C5C;
+}
+
+.main {
+	width: 45%;
+	position: center;
+	float: inherit;
+	margin: 30px auto;
+	padding-top: 0;
+	font-size: 90%;
+}
+
+
+.nameplate {
+	color: white;
+	padding: 10px;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	font-family: "Georgia, serif";
+}
+
+.nameplate h1 {
+	text-decoration: none;
+}
+
+.nameplate img {
+	float: left;
+	padding-right: 10px; 
+	border: 1px white;
+	border-radius: 100px;
+}
+
+.description {
+	color: white;
+	margin: auto;
+	padding-right: 10px;
+	font-style: italic;
+	text-align: justify;
+}
+
+.aboutme {
+	border: 2px solid #CD5C5C;
+	border-radius: 30px;
+	color: white;
+	padding-top: 0;
+	padding-right: 10px;
+	font-style: inherit;
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 30px;		
+}
+
+.aboutme p {
+	padding-left: 10px;
+	color: white;
+	font-style: italic;
+}
+
+.edu {
+	color: white;
+	margin: auto;
+	padding-top: 10px;
+	border: 2px solid #CD5C5C;
+	border-radius: 20px;
+	line-height: 30px;
+}
+
+.edu h3{
+	text-decoration: underline;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#content {
+	padding-left: 10px;
+	color: white;
+	font-style: italic;
+	margin: auto;
+}
+
+.work {
+	color: white;
+	border: 2px solid #CD5C5C;
+	border-radius: 20px;
+	line-height: 30px;
+}
+
+.work h3 {
+	text-decoration: underline;
+	padding-left: 10px;
+}
+
+#workcontent {
+	padding-left: 10px;
+	color: white;
+	font-style: italic;
+	margin: auto;
+}
+
+.skills {
+	color: white;
+	border: 2px solid #CD5C5C;
+	border-radius: 20px;
+	line-height: 30px;
+	padding-bottom: 0;
+}
+
+.skills h3 {
+	text-decoration: underline;
+	padding-left: 10px;
+}
+
+footer {
+	width: 70%;
+	padding-top: 0;
+	float: right;
+	color: white;
+}
+
+footer #backtotop {
+	float: right;
+	width: 50%;
+}
